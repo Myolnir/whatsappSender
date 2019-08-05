@@ -1,0 +1,28 @@
+{
+  "name": "whatsappsender",
+  "version": "1.0.0",
+  "description": "Simple app to send whatsapp messages from twilio",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Myolnir/whatsappSender.git"
+  },
+  "keywords": [
+    "whatsapp"
+  ],
+  "author": "angel.muelas@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Myolnir/whatsappSender/issues"
+  },
+  "homepage": "https://github.com/Myolnir/whatsappSender#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "minimist": "^1.2.0",
+    "twilio": "^3.33.2"
+  }
+}
